@@ -13,4 +13,35 @@ header {
     background-color: black;
     color: white;
     font-family: 'Passion One', cursive;
+    padding: 20px;
+    margin: -8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+h3 {
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Sriracha', cursive;
+    font-size: 150%;
+    line-height: 2em;
+    font-weight: bolder;
+    margin: 50px;
+}
+
+div {
+    margin: 20px;
 }
