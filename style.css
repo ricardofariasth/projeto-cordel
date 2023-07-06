@@ -1,22 +1,28 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Passion One', cursive;
-    src: url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
 }
-@font-face {
-    font-family: 'Sriracha', cursive;
-    src: url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
     background-color: black;
     color: white;
-    font-family: 'Passion One', cursive;
-    padding: 20px;
-    margin: -8px;
-    margin-bottom: 20px;
     text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
 }
 
 a {
@@ -27,21 +33,33 @@ a {
 
 a:hover {
     text-decoration: underline;
-
 }
 
-h3 {
-    font-weight: normal;
-}
-
-p {
-    font-family: 'Sriracha', cursive;
-    font-size: 150%;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
-    font-weight: bolder;
-    margin: 50px;
+    padding-left: 30px;
 }
 
-div {
-    margin: 20px;
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
